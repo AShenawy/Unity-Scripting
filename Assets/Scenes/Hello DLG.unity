@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 506218319}
   - component: {fileID: 506218318}
   - component: {fileID: 506218320}
+  - component: {fileID: 506218321}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -226,6 +227,25 @@ MonoBehaviour:
   isWalking: 0
   isAttacking: 1
   isRunning: 0
+--- !u!114 &506218321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506218317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc4de203fa34dce4a9d322eee967432c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  names:
+  - Elinda
+  - Semjon
+  - Shen
+  - Jason
+  - Galina
+  - Helle
 --- !u!1 &636674145
 GameObject:
   m_ObjectHideFlags: 0
